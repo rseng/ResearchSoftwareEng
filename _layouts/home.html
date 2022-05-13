@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<header>
+
+<h1 style="color:white"><img style="width:100px;padding-right:10px; padding-top:5px" src="{% if site.logo %}{{ site.baseurl }}/{{ site.logo }}{% else %}{{ site.data.stats.data.community_icon }}{% endif %}" />{{ site.data.stats.data.display_name_prefixed }}</h1>
+</header>
+
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css'>
+<style>
+.card {
+  width: 95%;
+  margin: auto;
+  margin-bottom:20px;
+}
+.btn-secondary {
+  cursor: default;
+}
+</style>
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card"><strong>Welcome to our community</strong>: {{ site.data.stats.data.public_description }}<br><br>
+        <a href="https://reddit.com/{{ site.data.stats.data.display_name_prefixed }}" target="_blank" type="button" class="btn btn-sm btn-primary">View us on Reddit</a>
+<button type="button" class="btn btn-sm btn-secondary"> {{ site.data.stats.data.subscribers }} Subscribers</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+       {{ content }}
+      </div>
+    </div>
+</div>

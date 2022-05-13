@@ -1,0 +1,31 @@
+lang: en
+
+url: ""
+baseurl: "/ResearchSoftwareEng" 
+permalink: /:year-:month-:day-:title/
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+
+exclude: 
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+livereload: true
+
+# Comment this out to use reddit logo
+logo: assets/img/logo-transparent.svg
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      show_sidebar: true
+
+markdown: kramdown
+highlighter: rouge
