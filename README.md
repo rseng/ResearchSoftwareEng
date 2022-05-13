@@ -4,6 +4,8 @@ Welcome to the stats graph for our [ResearchSoftwareEng](https://www.reddit.com/
 community! This is a fun little project where we can track our Reddit community over
 time. ⭐️
 
+![assets/img/site.png](assets/img/site.png)
+
 ## Usage
 
 Hey, and you can use this to track your own reddit community!
