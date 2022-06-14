@@ -16,6 +16,7 @@ data:
   allow_talks: false
   allow_videogifs: true
   allow_videos: false
+  allowed_media_in_comments: []
   banner_background_color: ''
   banner_background_image: ''
   banner_img: ''
@@ -23,6 +24,7 @@ data:
   can_assign_link_flair: true
   can_assign_user_flair: true
   collapse_deleted_comments: false
+  comment_contribution_settings: {}
   comment_score_hide_mins: 0
   community_icon: https://styles.redditmedia.com/t5_6cuj7w/styles/communityIcon_s0s2x47fvyy81.png?width=256&amp;s=a6eab748c2ea9d54e96aded91f182c3c128cd0e3
   community_reviewed: false
@@ -72,6 +74,7 @@ data:
   restrict_commenting: false
   restrict_posting: true
   should_archive_posts: false
+  should_show_media_in_comments_setting: true
   show_media: true
   show_media_preview: true
   spoilers_enabled: false
