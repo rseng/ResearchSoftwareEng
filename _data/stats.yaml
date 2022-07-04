@@ -1,8 +1,8 @@
 data:
   accept_followers: true
-  accounts_active: 2
+  accounts_active: 1
   accounts_active_is_fuzzed: false
-  active_user_count: 2
+  active_user_count: 1
   advertiser_category: ''
   all_original_content: false
   allow_chat_post_creation: true
