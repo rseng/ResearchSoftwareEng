@@ -1,8 +1,8 @@
 data:
   accept_followers: true
-  accounts_active: 5
+  accounts_active: 2
   accounts_active_is_fuzzed: false
-  active_user_count: 5
+  active_user_count: 2
   advertiser_category: ''
   all_original_content: false
   allow_chat_post_creation: true
@@ -84,7 +84,7 @@ data:
   submit_text_html: null
   submit_text_label: ''
   subreddit_type: public
-  subscribers: 116
+  subscribers: 117
   suggested_comment_sort: null
   title: ResearchSoftwareEng
   url: /r/ResearchSoftwareEng/
